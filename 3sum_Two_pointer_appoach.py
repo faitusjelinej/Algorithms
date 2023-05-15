@@ -1,3 +1,5 @@
+# First sort the array. use a for loop to iterate one index and then use two pointers approach
+
 def threeSum(nums):
     nums.sort()
     res = []
