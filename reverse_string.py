@@ -24,3 +24,7 @@ s = ' hello world '
 
 print(reverseWords(s))
 
+
+second solution:
+return " ".join(s.split()[::-1])
+
